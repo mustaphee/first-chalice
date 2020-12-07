@@ -3,3 +3,6 @@
 aws
 awscliv2.zip
 *pyc
+*__pycache__
+.pytest_cache
+.vscode
