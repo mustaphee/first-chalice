@@ -3,7 +3,19 @@
   "app_name": "first-chalice",
   "stages": {
     "dev": {
-      "api_gateway_stage": "api"
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "BUCKET_ID": "platform-1-2628ce9d16f64f39a9cc65d575f1e7ea-images"
+      }
     }
+  },
+  "test": {
+    "api_gateway_stage": "api-test",
+    "environment_variables": {
+      "BUCKET_ID": "platform-1-2628ce9d16f64f39a9cc65d575f1e7ea-images"
+    }
+  },
+  "environment_variables": {
+    "BUCKET_ID": "platform-1-2628ce9d16f64f39a9cc65d575f1e7ea-images"
   }
 }
